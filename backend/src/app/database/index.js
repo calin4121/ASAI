@@ -29,6 +29,7 @@ const ServiceType = require('../models/ServiceType');
 const Feedback = require('../models/Feedback');
 const Job = require('../models/Job');
 const JobType = require('../models/JobType');
+const LeadItem = require('../models/LeadItem');
 
 
 const connection = new Sequelize(dbConfig);
